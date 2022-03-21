@@ -1,0 +1,21 @@
+.container-wrapper .header {
+  background: whitesmoke;
+  padding: 10px;
+}
+.acknowledge-container {
+    padding: 3%;
+}
+.acknowledge-container input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.appointment-info small {
+  display: block;
+}
+@media (min-width: 768px) {
+  .acknowledge-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+  }
+}

@@ -1,0 +1,21 @@
+.client-schedule .header{
+    background: whitesmoke;
+    padding: 5px;
+    margin-bottom: 3%;
+}
+.client-schedule-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label span {
+    color: red;
+}
+.client-schedule-form form:last-child {
+    padding: 5%;
+}
+.client-schedule-form form:last-child input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}

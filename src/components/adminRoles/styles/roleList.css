@@ -1,0 +1,22 @@
+
+.role-card {
+    font-size: small;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.role-card .card-title {
+    display: flex;
+}
+.role-card .card-title .staff-name small {
+    display: block;
+}
+.staff-name span {
+    font-weight: bold;
+}
+img.admin-avatar {
+    max-width: 50px;
+    max-width: 50;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}

@@ -1,0 +1,61 @@
+.admin-form {
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.staff li:hover {
+  background-color: #f2f2f2;
+}
+ul.staff {
+  background-color: #ffffff;
+  min-width: 230px;
+  border: 1px solid #ddd;
+  max-width: 29%;
+}
+.admin-form input {
+  box-sizing: border-box;
+  font-size: 16px;
+  /*padding: 14px 20px 12px 45px;*/
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.admin-form:focus {
+  outline: 3px solid #ddd;
+}
+.selected-staff {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+  padding: 10px;
+}
+.selected-staff .staff {
+    display: flex;
+}
+.selected-staff .staff img {
+  max-width: 50px;
+  max-height: 50px;
+  clip-path: circle(50%);
+  margin-right: 10px;
+}
+.selected-staff .staff .staff-details span {
+    display: block;
+}
+.selected-staff .staff-details span:first-child {
+    font-weight: bold;
+}
+.selected-staff .remove-staff {
+    cursor: pointer;
+}
+.selected-staff .remove-staff:hover {
+    color: red;
+}
+label {
+    float: left;
+}
+label span {
+    color: red;
+}

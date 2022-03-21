@@ -1,0 +1,29 @@
+.textarea-div{
+    margin-bottom: 2rem;
+}
+
+.textarea-notif-wrapper{
+    max-width: 100%;
+    margin-bottom: 1rem;
+
+    
+}
+
+
+.textarea-notif-wrapper {
+    border: transparent;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  @media (min-width: 768px) {
+    .staff-notif-wrapper {
+      max-width: 50%;
+    }
+  }
+
+
+
+.notfi-div{
+
+    margin-top: 2rem;
+}

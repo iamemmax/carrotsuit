@@ -1,0 +1,52 @@
+.staff-actions-wrapper main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+    padding: 5px;
+}
+.staff-actions-wrapper main figure  {
+    text-align: center;
+}
+.staff-actions-wrapper main figure img {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+}
+.staff-actions-wrapper main table {
+    position: relative;
+    top: 5px;
+}
+.field-name {
+    font-weight: bold;
+    font-size: 18;
+    text-transform: capitalize;
+}
+.staff-actions-wrapper h3 {
+    padding: 5px;
+    margin: 10px 0;
+}
+.action-form {
+  border-radius: 10px;
+}
+.staff-actions ul li.msg:hover {
+  cursor: pointer;
+  background: #f8f6f6;
+}
+@media (min-width: 768px) {
+    .staff-actions-wrapper main {
+        flex-direction: row;
+        background: none;
+        padding: 3%;
+    }
+    .staff-actions-wrapper main section:first-child {
+        flex: 2;
+        margin-right: 3%;
+    }
+    .staff-actions-wrapper main section:last-child {
+        flex: 1;
+    }
+  }
+  

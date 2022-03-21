@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  /*background: #fdfbfb;*/
+  padding: 2%;
+}
+.header-menu {
+  display: flex;
+}
+.header-menu input {
+  border-radius: 10px;
+  background-image: url("../../../../public/images/search_icon.png");
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+}
+.admin-roles .main {
+  padding: 2%;
+}

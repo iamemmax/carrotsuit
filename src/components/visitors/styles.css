@@ -1,0 +1,100 @@
+.custom-date {
+  display: flex;
+}
+.custom-date input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-right: 10px;
+}
+.custom-date .btn-filter {
+  justify-self: center;
+  align-self: center;
+}
+.nav-wrapper {
+  background: #FDFEFE ;
+  box-shadow: 3px 3px 3px 3px #ccc;
+  padding: 2%;
+}
+.visitor-filter {
+  display: flex;
+  justify-content: space-evenly;
+}
+.master-mark {
+  position: relative;
+  bottom: 20px;
+}
+.visitor-in {
+    color: green;
+    font-size: 20px;
+}
+.visitor-out {
+    color: red;
+    font-size: 20px;
+}
+.visitor-list {
+  background: #FDFEFE;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu * {
+  margin-right: 10px;
+  position: relative;
+  bottom: 2px;
+}
+.menu .menu-date {
+  position: relative;
+  top: 10px;
+}
+.menu select {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background: #5585ac;
+  color: #ffffff;
+  font-size: small;
+}
+img.visitor-pix {
+  max-width: 30px;
+  max-height: 30px;
+  clip-path: circle(50%);
+}
+.menu input {
+  max-width: 100px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: #5585ac;
+  color: #ccc;
+  font-size: small;
+}
+.menu form button {
+  font-size: small;
+}
+.menu form span {
+  color: #ccc;
+  cursor: pointer;
+}
+.menu form span:hover {
+  color:#ffffff;
+}
+.menu input label {
+  display: block;
+}
+.menu label {
+  color: #ffffff;
+  display: block;
+}
+.phone-form .btn-save {
+  background: #5585ac;
+}
+.phone-form .btn-save:hover {
+  background: #5e95c2;
+}
+@media (min-width: 768px) {
+  .visitor-dashboard {
+    margin-top: 0;
+  }
+  .table-bar form:first-child {
+    display: block;
+  }
+}

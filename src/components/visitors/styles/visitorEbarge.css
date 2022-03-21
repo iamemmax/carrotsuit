@@ -1,0 +1,67 @@
+.e-barge .main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.e-barge .main .barge-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.barge-wrapper h4 {
+  margin-bottom: 10px;
+  margin-top: 3%;
+  text-align: center;
+
+}
+
+.e-barge .main .barge-wrapper figure:first-child img {
+  max-width: 40px;
+  max-height: 40px;
+}
+.e-barge .main .barge-wrapper figure:last-child {
+  max-width: 120px;
+  max-height: 120px;
+  align-self: center;
+}
+.e-barge .main .barge-wrapper figure:first-child {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+.e-barge .main .barge-wrapper figure:first-child figcaption {
+  
+  margin-left: 10px;
+}
+.e-barge .main .barge-wrapper figure:last-child img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.e-barge .main .barge-wrapper .barcode {
+  align-self: center;
+  margin-top: 7%;
+}
+@media (min-width: 768px) {
+  .e-barge .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .e-barge img:last-child {
+    align-self: center;
+    justify-self: center;
+  }
+  .main .barge-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px dashed #ccc;
+    padding: 3px;
+    min-width: 300px;
+  }
+}

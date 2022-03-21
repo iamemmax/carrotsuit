@@ -1,0 +1,10 @@
+.staff-notif-wrapper form select {
+  border: transparent;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+  .staff-notif-wrapper {
+    max-width: 50%;
+  }
+}

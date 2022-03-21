@@ -1,0 +1,41 @@
+.dashboard-button{
+        width: 10rem;
+        height: 3rem;
+       
+}
+
+
+.btn1{
+    background-color: white;
+
+}
+
+
+.heading{
+    color: brown;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+
+
+.button{
+    width: 10rem;
+    height: 3rem;
+    color: black;
+    background-color: orange;
+}
+
+
+.next-button{
+    background-color: orange;
+    width: "80%";
+}

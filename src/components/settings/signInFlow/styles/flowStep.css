@@ -1,0 +1,31 @@
+.step-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+    margin-bottom: 3%;
+  }
+  .step-num {
+    height: 50px;
+    width: 50px;
+    clip-path: circle(50%);
+    margin-right: 20px;
+    background: #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .current-step {
+    background: blue;
+    color: #ffffff;
+  }
+  .step-num:hover {
+      background: rgb(223, 222, 222);
+  }
+  .hr {
+    border: 1px solid #ccc;
+    width: 150px;
+    height: 0px;
+    position: relative;
+    top: 10px;
+    margin: 0 3px;
+    font-size: 5px;
+  }

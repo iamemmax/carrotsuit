@@ -1,0 +1,23 @@
+.demo-image-preview {
+  position: relative;
+  text-align: center;
+}
+
+.demo-image-preview > img {
+  width: 50%;
+}
+.btn-wrapper {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .demo-image-preview > img {
+    max-width: 70%; ;
+  }
+}
+
+/* fullscreen enable by props */
+.demo-image-preview-fullscreen > img {
+  width: 100vw;
+  height: 100vh;
+}

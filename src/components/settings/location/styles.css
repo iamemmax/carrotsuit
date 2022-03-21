@@ -1,0 +1,20 @@
+.location-wrapper {
+    padding: 2%;
+}
+.location-wrapper ul  {
+    margin-top: 3%;
+}
+
+.location-form {
+    background: #ffffff;
+    padding: 3%;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    width: 100%;
+}
+.map-wrapper img {
+height: 200px;
+max-width: 100%;
+}
+.map-wrapper {
+    margin: 2% 0;
+}

@@ -1,0 +1,35 @@
+label {
+  float: left;
+  font-size: small;
+}
+input {
+  height: 20px;
+}
+label span {
+  color: red;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul.staff-list li {
+  padding: 12px 10px;
+}
+ul.staff-list li:hover {
+  background-color: #f2f2f2;
+}
+ul.staff-list {
+  background-color: #ffffff;
+  min-width: 230px;
+  border: 1px solid #ddd;
+  max-width: 29%;
+}
+.btn-group .btn-save {
+  background: #5585ac;
+}
+.btn-group .btn-save:hover {
+  background: #5e95c2;
+}
+.btn-group * {
+  margin-right: 5px;
+}

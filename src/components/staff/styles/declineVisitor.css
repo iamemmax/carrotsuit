@@ -1,0 +1,11 @@
+.btn-group {
+    margin-top: 10px;
+}
+.decline-visitor .btn-group .btn-proceed {
+    background: #5e95c2;
+    color: #ffffff;
+  }
+.decline-visitor .btn-group .btn-proceed:hover {
+  background: #5e95c2;
+  color: #ffffff;
+}

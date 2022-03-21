@@ -1,0 +1,16 @@
+.confirm-order {
+    background: #ffffff;
+    padding: 3%;
+}
+.confirm-order h4 {
+    margin-bottom: 5%;
+}
+.confirm-order h6 {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    color: #424242;
+    font-weight: bold;
+}
+h5 {
+    color: #424242;
+}

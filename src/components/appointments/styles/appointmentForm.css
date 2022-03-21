@@ -1,0 +1,7 @@
+.appointment-form input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+ul.company-list {
+  list-style-type: none;
+}

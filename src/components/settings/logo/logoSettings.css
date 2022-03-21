@@ -1,0 +1,27 @@
+.logo-wraipper {
+  padding: 2%;
+}
+.logo-wraipper * {
+    margin-top: 10px;
+}
+.company-logo input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.company-settings figure {
+    text-align: center;
+}
+.company-settings img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.file-select {
+    margin-top: 10px;
+}
+.btn {
+    margin-top: 2%;
+}
+.company-logo figure {
+    max-width: 100px;
+    max-height: 100px;
+}

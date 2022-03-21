@@ -1,0 +1,62 @@
+.staff-dashboard {
+  margin-top: 8%;
+}
+table {
+  font-size: small;
+}
+.nav-wrapper {
+  background: #fdfefe;
+  box-shadow: 3px 3px 3px 3px #ccc;
+  padding: 2%;
+}
+.master-mark {
+  position: relative;
+  bottom:  20px;
+}
+.staff-list {
+    background: #FDFEFE;
+    height: 100%;
+  }
+input {
+  border: none;
+  max-height: 30px;
+}
+.staff-form label {
+  font-size: small;
+  margin: 0px;
+  float: left;
+}
+.staff-form label span {
+  color: red;
+}
+.staff-form input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.staff-form .btn-save {
+  background: #5e95c2;
+  color: #ffffff;
+}
+.staff-form .btn-save:hover {
+  background: #5e95c2;
+  color: #ffffff;
+}
+.staff-details figure img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.staff-details figure {
+  text-align: center;
+}
+.staff-detaills .tlable {
+  position: relative;
+  top: 15px;
+}
+@media (min-width: 768px) {
+  .staff-dashboard {
+    margin-top: 0;
+  }
+  .table-bar form:first-child {
+    display: block;
+  }
+}

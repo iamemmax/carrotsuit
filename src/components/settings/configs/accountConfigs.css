@@ -1,0 +1,23 @@
+.configs-wrapper {
+  padding: 2%;
+  background: #ffffff;
+}
+.wrapper {
+  box-shadow: 1px 1px 1px 1px #ccc;
+  margin: 10px 0;
+}
+h5 {
+  font-weight: bold;
+}
+.card .card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  background: #ffffff;
+}
+.card .card-header div span {
+  display: block;
+}
+.card .card-header span {
+  text-transform: lowercase;
+}

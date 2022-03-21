@@ -1,0 +1,86 @@
+.settings-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.field-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.field-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 2%;
+  margin-bottom: 2%;
+  max-width: 100%;
+  background: #ffffff;
+}
+ol.field-options li {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.remove-span {
+  margin-left: 5px;
+}
+.btn-add-option {
+  margin-left: 10px;
+  position: relative;
+  bottom: 10px;
+}
+.field-input{
+  display: flex;
+  flex-direction: column;
+}
+.field-input input{
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.field-switch{
+  display: flex;
+  flex-direction: column;
+}
+.switch-container{
+  display: flex;
+  justify-content: space-between;
+}
+.option-input-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.field-container .btn {
+  justify-self: flex-end;
+  align-self: flex-end;
+  margin-top: 30px;
+}
+.btn-new {
+  width: 100px;
+  margin: 10px;
+}
+.select-container {
+  border: 1px solid #ccc;
+  padding: 2%;
+  max-width: 100%;
+}
+.fields-wrapper {
+  border: 1px solid #ccc;
+  padding: 2%;
+  margin-top: 10px;
+}
+h5 {
+  font-weight: bold;
+  color:#5585ac;
+}
+.remove-span:hover {
+  color: red;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .select-container {
+    max-width: 50%;
+  }
+  .field-container, .add-field {
+    max-width: 60%;
+  }
+}

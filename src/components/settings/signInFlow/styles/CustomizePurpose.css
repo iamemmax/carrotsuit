@@ -1,0 +1,10 @@
+
+.flex-row{
+
+    display: Flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 20;
+}

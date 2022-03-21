@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+* {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.form-container {
+  width: 100%;
+  height: 100vh;
+  .logo {
+    width: 170px;
+    height: 120px;
+    // border: 2px solid red;
+    margin: 0px auto;
+    // display: none;
+
+    img {
+      width: 100%;
+    }
+  }
+  > div {
+    height: 100%;
+
+    .right_Side {
+      background-color: #f4733b;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 60px;
+      flex-direction: column;
+
+      .sidebar_middle_box {
+        height: 400px;
+        .title {
+          font-size: 50px;
+          color: #fff;
+          text-transform: capitalize;
+        }
+        .listItems {
+          // border: 2px solid red;
+          width: 100%;
+          margin-top: 2rem;
+          li {
+            padding: 10px;
+            color: #eee;
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+    .left_side_form {
+      height: auto;
+      .middle_box {
+        width: 80%;
+        margin: 0px auto;
+        height: 100%;
+        // overflow-y: auto;
+
+        form {
+          // border: 2px solid red;
+          .title {
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            text-transform: uppercase;
+          }
+          .helperText {
+            text-align: center;
+            font-size: 16px;
+            margin: 0px auto;
+            padding: 10px;
+            margin-top: -40px;
+            opacity: 0.8;
+
+            width: 100% !important;
+          }
+
+          #passwordIcon {
+            cursor: pointer;
+          }
+          .cta_Btn {
+            padding: 8px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.go_to_auth_page {
+  margin-top: 10px;
+  .have_account_link {
+    opacity: 0.5;
+    font-size: 14px;
+  }
+  a {
+    opacity: 1 !important;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #f4733b;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.inputs {
+  outline: none;
+  margin-bottom: 20px !important;
+  border: "2px solid red";
+  display: block;
+}

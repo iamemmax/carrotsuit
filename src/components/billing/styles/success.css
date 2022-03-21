@@ -1,0 +1,18 @@
+.success-payment {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.success-payment div:first-child {
+    margin-top: 10px;
+}
+.success-text {
+    margin: 20px 0;
+}
+.check, .success-payment h3, .success-payment h4, .success-payment p {
+    text-align: center;
+}
+.check {
+    margin: 3%, 0;
+}

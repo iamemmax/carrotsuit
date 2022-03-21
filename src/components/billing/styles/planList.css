@@ -1,0 +1,116 @@
+.planlist-wrapper {
+    background: #ffffff;
+    padding: 2%;
+}
+.planlist-wrapper h4 {
+    margin-bottom: 5%;
+}
+.plan-name {
+    font-size: large;
+    
+}
+.plan-price {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.plan-features {
+    height: 200px;
+    font-size: 2px;
+}
+.plan-features div {
+    display: flex;
+    justify-content: space-between;
+}
+.planlist-wrapper .plan-features p {
+    margin: 0px;
+    font-size: small;
+}
+.headingDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: 'center';
+    margin-bottom: 1.8rem;
+    /* background-color: red; */
+    place-self: 'center';
+    padding-left: 37%;
+    font-size: 1.6rem;
+}
+
+
+.double-strike{
+    text-decoration: line-through;
+}
+
+
+/* .card-deck{
+    margin-top: 10px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: .5rem;
+
+
+   
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1425px){
+    .card-deck{
+        margin-top: 10px;
+        margin-left: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: .5rem;
+        font-size: 2px;
+
+    }
+
+    .planlist-wrapper .plan-features p {
+        margin: 0px;
+        font-size: 0.65rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 997px){
+    .card-deck{
+        margin-top: 10px;
+        margin-left: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: .5rem;
+        font-size: 2px;
+
+    }
+
+    .planlist-wrapper .plan-features p {
+        margin: 0px;
+        font-size: 0.6rem;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 975px){
+    .card-deck{
+        margin-top: 10px;
+        margin-left: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: .5rem;
+    
+        font-size: 2px;
+    }
+
+
+} */
+
+
