@@ -29,6 +29,11 @@ const Register = () => {
     setSelectOption(e.target.value);
     console.log(selectOption);
   };
+  const [age, setAge] = useState("");
+
+  const handleChange = (event) => {
+    setAge(event.target.value);
+  };
   return (
     <div>
       {/* <Box> */}
@@ -142,23 +147,22 @@ const Register = () => {
                   }}
                 />
 
-                <FormControl fullWidth size="small">
-                  <InputLabel id="demo-simple-select-label">
-                    {/* Select Use Case */}
+                <FormControl sx={{ m: 1 }} fullWidth size="small">
+                  <InputLabel id="demo-simple-select-autowidth-label">
+                    Select Use Case
                   </InputLabel>
                   <Select
-                    labelId="demo-simple-select-label"
-                    id="demo-simple-select"
-                    // value={age}
-
+                    labelId="demo-simple-select-autowidth-label"
+                    id="demo-simple-select-autowidth"
+                    value={age}
+                    onChange={handleChange}
+                    autoWidth
+                    label="Select Use Case"
+                    fullWidth
                     variant="outlined"
-                    className="inputs"
-                    size="small"
-                    onChange={handleSelect}
-                    value={selectOption}
                   >
-                    <MenuItem size="small" value="Select Use Case">
-                      Select Use Case
+                    <MenuItem value="">
+                      <em>None</em>
                     </MenuItem>
                     <MenuItem size="small" value="Office">
                       Office
@@ -171,7 +175,8 @@ const Register = () => {
                     </MenuItem>
                   </Select>
                 </FormControl>
-
+                <br />
+                <br />
                 <Button
                   variant="contained"
                   fullWidth
