@@ -12,7 +12,7 @@ import {
   InputLabel,
   Button,
   List,
-} from "@material-ui/core";
+} from "@mui/material";
 import { AiFillEye } from "react-icons/ai";
 
 import "./styles/style.scss";
@@ -229,7 +229,7 @@ const Login = () => {
                   fullWidth
                   name="email"
                   type="email"
-                  size="small"
+                  // size="small"
                   required
                   className="inputs"
                 />
@@ -240,7 +240,7 @@ const Login = () => {
                   variant="outlined"
                   fullWidth
                   name="Password"
-                  size="small"
+                  // size="small"
                   required
                   type={showPassword ? "text" : "Password"}
                   className="inputs"

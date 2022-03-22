@@ -12,7 +12,8 @@ import {
   InputLabel,
   Button,
   List,
-} from "@material-ui/core";
+  Stack,
+} from "@mui/material";
 import { AiFillEye } from "react-icons/ai";
 
 import "./styles/style.scss";
@@ -54,7 +55,7 @@ const Register = () => {
                   <img src={"/images/logo_200.png"} alt="logo" />
                 </div>
                 <Typography variant="h6" component="h2" className="title">
-                  Welcome to Carrotsuit
+                  Welcome to Carrotsuit Space
                 </Typography>
                 <div className="helperText">
                   <Typography
@@ -63,7 +64,7 @@ const Register = () => {
                     className="helperText"
                     align="center"
                   >
-                    achieve a paperless visitor experience
+                    ...achieve a paperless visitor experience
                   </Typography>
                 </div>
                 <Grid
@@ -85,6 +86,7 @@ const Register = () => {
                       className="inputs"
                     />
                   </Grid>
+
                   <Grid item xs={6} sm={6} md={6} lg={6}>
                     <TextField
                       label="Last Name"
@@ -121,6 +123,18 @@ const Register = () => {
                   size="small"
                   required
                   className="inputs"
+                  InputProps={{
+                    endAdornment: (
+                      <InputAdornment
+                        position="
+                        start"
+                        id=""
+                        // onClick={}
+                      >
+                        @
+                      </InputAdornment>
+                    ),
+                  }}
                 />
 
                 <TextField
@@ -147,7 +161,7 @@ const Register = () => {
                   }}
                 />
 
-                <FormControl sx={{ m: 1 }} fullWidth size="small">
+                <FormControl fullWidth size="small">
                   <InputLabel id="demo-simple-select-autowidth-label">
                     Select Use Case
                   </InputLabel>
@@ -183,7 +197,7 @@ const Register = () => {
                   style={{ backgroundColor: "#f6733b" }}
                   className="cta_Btn"
                 >
-                  SIGNUP
+                  Create an Account
                 </Button>
               </form>
             </div>

@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   outline: none;
   padding: 0;
   margin: 0;
-  font-family: Poppins, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .form-container {
   width: 100%;
@@ -64,17 +63,18 @@
           .title {
             padding: 30px;
             text-align: center;
-            font-size: 30px;
+            font-size: 25px;
             font-weight: 600;
             text-transform: uppercase;
           }
           .helperText {
             text-align: center;
-            font-size: 16px;
+            font-size: 14px;
             margin: 0px auto;
             padding: 10px;
             margin-top: -40px;
             opacity: 0.8;
+            font-family: "Montserrat", sans-serif;
 
             width: 100% !important;
           }
@@ -85,8 +85,9 @@
           .cta_Btn {
             padding: 8px;
             font-size: 18px;
-            font-weight: 500;
+            font-weight: 600;
             color: #fff;
+            text-transform: capitalize;
           }
         }
       }
